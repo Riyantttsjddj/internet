@@ -4,7 +4,7 @@ import socket
 
 # Konfigurasi WebSocket Reverse
 LISTEN_HOST = "0.0.0.0"
-LISTEN_PORT = 80  # Port WebSocket
+LISTEN_PORT = 443  # Port WebSocket
 FORWARD_HOST = "8.215.192.205"  # IP server tujuan (misal, SSH lokal)
 FORWARD_PORT = 22  # Port SSH
 
